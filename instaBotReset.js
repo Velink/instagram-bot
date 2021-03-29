@@ -22,8 +22,8 @@ const iPhone = puppeteer.devices['iPhone X'];
     //wait for username
     await page.waitForSelector('input[name="username"]')
     //enter username and password
-    await page.type('input[name="username"]', 'comfyminds');
-    await page.type('input[name="password"]', 'Tycoon97!');
+    await page.type('input[name="username"]', 'example username');
+    await page.type('input[name="password"]', 'example password');
     //click submit button
     await page.click('button[type="submit"]');
 
